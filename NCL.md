@@ -6,15 +6,18 @@ title: Nation Cyber League
 <p class="message">
   This is a Test:
 </p>
-Another test * [blog](https://lukej2680.github.io/2020/04/03/introducing-lanyon/)
-In the novel, *The Strange Case of Dr. Jeykll and Mr. Hyde*, Mr. Poole is Dr. Jekyll's virtuous and loyal butler. Similarly, Poole is an upstanding and effective butler that helps you build Jekyll themes. It's made by [@mdo](https://twitter.com/mdo).
+Another test [blog](https://lukej2680.github.io/2020/04/03/introducing-lanyon)
+test [google](www.google.com)
+
+http://github.com - automatic!
+[GitHub](http://github.com)
 
 There are currently two themes built on Poole:
 
 * [Hyde](http://hyde.getpoole.com)
 * [Lanyon](http://lanyon.getpoole.com)
 
-Learn more and contribute on [GitHub](https://github.com/poole).
+Learn more and contribute on [GitHub](www.google.com).
 
 ## Setup
 
