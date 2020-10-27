@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Nation Cyber League
+title: Nation Cyber League - Fall 2020 Season
 ---
 
 <p class="message">
