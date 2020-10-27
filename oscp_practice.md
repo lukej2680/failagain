@@ -9,6 +9,7 @@ title: OSCP Practice
 </p>
 
 ## HTB Machines
+<!-- Make this into a two column list divided into windows and linux machines when you have time -->
 * Legacy
 * Bashed
 * Blue
