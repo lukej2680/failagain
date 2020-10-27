@@ -1,7 +1,7 @@
 # Setup
 title:               Lukej2680
 tagline:             'Tech Blog'
-description:         'A personal blog relating to all things tech related.'
+description:         'A personal blog for all things tech related.'
 url:                 https://lukej2680.github.io #http://lanyon.getpoole.com
 baseurl:             /
 paginate:            5
