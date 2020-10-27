@@ -9,7 +9,12 @@ title: OSCP Practice
 </p>
 
 ## HTB Machines
+* Legacy
+* Bashed
+* Blue
+* Lame
 
 ## TryHackMe
 
 ## Buffer Overflows
+* VulnerServer
