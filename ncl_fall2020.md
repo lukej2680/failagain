@@ -4,29 +4,45 @@ title: Nation Cyber League - Fall 2020 Season
 ---
 
 <p class="message">
-  This is a Test:
+  The NCL is a online CTF competition with challenges in 9 different cyber security domains run by cyberskyline.
+  <a href="https://nationalcyberleague.org/">NCL Homepage</a>
 </p>
-Another test [blog](https://lukej2680.github.io/2020/04/03/introducing-lanyon)
-test [google](www.google.com)
 
-http://github.com - automatic!
-[GitHub](http://github.com)
+This was my third year of participating in the NCL Fall Season. Unfortunately I was not able to spend a siginificant amount of time on the challanges due to an increased work load and several projects being due that weekend however I still found time to knock out some challanges. There were plenty of interesting ones like always and I had fun solving them!
 
-There are currently two themes built on Poole:
+Below are links to the blog posts of challanges I completed organized into the 9 domains.
 
-* [Hyde](http://hyde.getpoole.com)
-* [Lanyon](http://lanyon.getpoole.com)
+## Password Cracking
+* Hashing
+* Cracking 1
+* Cracking 3
+* Cracking 5
 
-Learn more and contribute on [GitHub](www.google.com).
+## Log Analysis
+* Home Wrecked
+* Database Backup
 
-## Setup
+## Network Traffic Analysis
+* The Group Chat
 
-Some fun facts about the setup of this project include:
+## Open Source Intelligence
+* Maze
+* Flag Location
+* Target Building
+* Base of Operations
 
-* Built for [Jekyll](https://jekyllrb.com)
-* Developed on GitHub and hosted for free on [GitHub Pages](https://pages.github.com)
-* Coded with [Atom](https://atom.io)
+## Cryptography
+* Decoding 1
+* Decoding 2
+* Decoding 3
 
-Have questions or suggestions? Feel free to [open an issue on GitHub](https://github.com/poole/issues/new) or [ask me on Twitter](https://twitter.com/mdo).
+## Scanning & Reconnaissance
+* Hidden Treasure
+* Flag Hunt
 
-Thanks for reading!
+## Web Application Exploitation 
+* Amoongus
+
+## Enumeration and Exploitation
+
+## Forensics
