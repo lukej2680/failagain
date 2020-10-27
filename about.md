@@ -17,4 +17,4 @@ I am currently a college student majoring in Software Engineering. I've had an i
 ## Reach out to me
 
 * [LinkedIn](https://www.linkedin.com/in/william-puppo-4a2996154/)
-* [Email Me](wjpuppo@gmail.com)
+* [Email Me](mailto:wjpuppo@gmail.com)
