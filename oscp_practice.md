@@ -3,20 +3,13 @@ layout: page
 title: OSCP Practice
 ---
 
-Give breif explanation of blog here;
--What you're studying for
--future plans
+<p class="message">
+  This page contains links to all HTB, TryHackMe or other machines I have completed in preperation for the Offensive Security Certified Professional Exam.
+  The majority of machines have been take from <a href="https://docs.google.com/spreadsheets/d/1dwSMIAPIam0PuRBkCiDI88pU3yzrqqHkDtBngUHNCw8/edit#gid=1839402159">TJnull's list of OSCP like boxes</a>, while any others will have their souce listed in the description. 
+</p>
 
-Who you are;
--Qualifications
--Experiences
+## HTB Machines
 
-Links to social media and other sites;
+## TryHackMe
 
-There are currently two themes built on Poole:
-* Built for [Jekyll](https://jekyllrb.com)
-* Developed on GitHub and hosted for free on [GitHub Pages](https://pages.github.com)
-* Coded with [Atom](https://atom.io)
-
-## Setup
-
+## Buffer Overflows
