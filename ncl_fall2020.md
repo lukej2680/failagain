@@ -32,9 +32,9 @@ Below are links to the blog posts of challanges I completed organized into the 9
 * Base of Operations
 
 ## Cryptography
-* Decoding 1
-* Decoding 2
-* Decoding 3
+* <a href="https://lukej2680.github.io/2020/10/26/decoding_1/">Decoding 1</a>
+* <a href="https://lukej2680.github.io/2020/10/26/decoding_2/">Decoding 2</a>
+* <a href="https://lukej2680.github.io/2020/10/26/decoding_3/">Decoding 3</a>
 
 ## Scanning & Reconnaissance
 * Hidden Treasure
