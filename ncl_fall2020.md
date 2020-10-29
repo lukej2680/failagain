@@ -19,8 +19,8 @@ Below are links to the blog posts of challanges I completed organized into the 9
 * Cracking 5
 
 ## Log Analysis
-* Home Wrecked
-* Database Backup
+* [Home Wrecked](https://lukej2680.github.io/2020/10/26/home_wrecked/)
+* [Database Backup](https://lukej2680.github.io/2020/10/26/database_backup/)
 
 ## Network Traffic Analysis
 * The Group Chat
