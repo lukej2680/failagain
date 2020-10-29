@@ -41,7 +41,7 @@ Below are links to the blog posts of challanges I completed organized into the 9
 * [Flag Hunt](https://lukej2680.github.io/2020/10/26/flag_hunt/)
 
 ## Web Application Exploitation 
-* [Amoongus]()
+* [Amoongus](https://lukej2680.github.io/2020/10/26/amoongus/)
 
 ## Enumeration and Exploitation
 
