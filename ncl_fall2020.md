@@ -13,23 +13,23 @@ This was my third year of participating in the NCL Fall Season. Unfortunately I 
 Below are links to the blog posts of challanges I completed organized into the 9 domains.
 
 ## Password Cracking
-* Hashing
-* Cracking 1
-* Cracking 3
-* Cracking 5
+* [Hashing]()
+* [Cracking 1]()
+* [Cracking 3]()
+* [Cracking 5]()
 
 ## Log Analysis
 * [Home Wrecked](https://lukej2680.github.io/2020/10/26/home_wrecked/)
 * [Database Backup](https://lukej2680.github.io/2020/10/26/database_backup/)
 
 ## Network Traffic Analysis
-* The Group Chat
+* [The Group Chat](https://lukej2680.github.io/2020/10/26/the_group_chat/)
 
 ## Open Source Intelligence
-* Maze
-* Flag Location
-* Target Building
-* Base of Operations
+* [Maze]()
+* [Flag Location]()
+* [Target Building]()
+* [Base of Operations]()
 
 ## Cryptography
 * <a href="https://lukej2680.github.io/2020/10/26/decoding_1/">Decoding 1</a>
@@ -37,11 +37,11 @@ Below are links to the blog posts of challanges I completed organized into the 9
 * <a href="https://lukej2680.github.io/2020/10/26/decoding_3/">Decoding 3</a>
 
 ## Scanning & Reconnaissance
-* Hidden Treasure
-* Flag Hunt
+* [Hidden Treasure]()
+* [Flag Hunt]()
 
 ## Web Application Exploitation 
-* Amoongus
+* [Amoongus]()
 
 ## Enumeration and Exploitation
 
