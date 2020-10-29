@@ -37,8 +37,8 @@ Below are links to the blog posts of challanges I completed organized into the 9
 * <a href="https://lukej2680.github.io/2020/10/26/decoding_3/">Decoding 3</a>
 
 ## Scanning & Reconnaissance
-* [Hidden Treasure]()
-* [Flag Hunt]()
+* [Hidden Treasure](https://lukej2680.github.io/2020/10/26/hidden_treasure/)
+* [Flag Hunt](https://lukej2680.github.io/2020/10/26/flag_hunt/)
 
 ## Web Application Exploitation 
 * [Amoongus]()
