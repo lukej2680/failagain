@@ -13,10 +13,10 @@ This was my third year of participating in the NCL Fall Season. Unfortunately I 
 Below are links to the blog posts of challanges I completed organized into the 9 domains.
 
 ## Password Cracking
-* [Hashing]()
-* [Cracking 1]()
-* [Cracking 3]()
-* [Cracking 5]()
+* [Hashing](https://lukej2680.github.io/2020/10/26/hashing/)
+* [Cracking 1](https://lukej2680.github.io/2020/10/26/cracking_1/)
+* [Cracking 3](https://lukej2680.github.io/2020/10/26/cracking_3/)
+* [Cracking 5](https://lukej2680.github.io/2020/10/26/cracking_5/)
 
 ## Log Analysis
 * [Home Wrecked](https://lukej2680.github.io/2020/10/26/home_wrecked/)
