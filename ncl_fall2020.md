@@ -26,10 +26,10 @@ Below are links to the blog posts of challanges I completed organized into the 9
 * [The Group Chat](https://lukej2680.github.io/2020/10/26/the_group_chat/)
 
 ## Open Source Intelligence
-* [Maze]()
-* [Flag Location]()
-* [Target Building]()
-* [Base of Operations]()
+* [Maze](https://lukej2680.github.io/2020/10/26/maze/)
+* [Flag Location](https://lukej2680.github.io/2020/10/26/flag_location/)
+* [Target Building](https://lukej2680.github.io/2020/10/26/target_building/)
+* [Base of Operations](https://lukej2680.github.io/2020/10/26/base/)
 
 ## Cryptography
 * <a href="https://lukej2680.github.io/2020/10/26/decoding_1/">Decoding 1</a>
