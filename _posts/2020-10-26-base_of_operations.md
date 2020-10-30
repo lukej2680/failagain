@@ -1,6 +1,8 @@
 ---
 layout: post
 title: Base of Operations
+description: <p class="message">This challange asked me to find the location of a hacker group given three coordinates.
+  I was unable to solve this problem but wanted to record it anyway.</p>
 ---
 
 <p class="message">
