@@ -1,0 +1,8 @@
+---
+layout: post
+title: Vulnserver
+---
+
+<p class="message">
+  Legacy is an older box on HTB and has an easily exploited vulnerability through Metasploit. In the spirit of the OSCP exam I will be manually be exploiting the vulnerability. 
+</p>
