@@ -1,6 +1,7 @@
 ---
 layout: post
 title: The Group Chat
+description: Test
 ---
 
 <p class="message">
