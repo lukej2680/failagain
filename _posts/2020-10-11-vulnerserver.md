@@ -1,6 +1,9 @@
 ---
 layout: post
 title: Vulnserver
+description: <p class="message">  Vulnserver is an intentionally vulnerable Windows based TCP server. It is commonly used to practice exploitation techniques like what I have done with it. 
+  In this walk-through I have spun vulnserver up on a Windows 10 VM and will exploit it using a buffer overflow vulnerability within one of it's commands.
+  I will be using the immunity debugger and pythons mona modules in order to exploit this application.</p>
 ---
 
 <p class="message">
