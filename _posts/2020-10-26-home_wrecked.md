@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Home Wrecked
+description: <p class="message">This challange asked me to analyze a log file and answer various questions.</p>
 ---
 
 <p class="message">
