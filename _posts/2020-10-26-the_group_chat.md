@@ -1,7 +1,8 @@
 ---
 layout: post
 title: The Group Chat
-description: <p class="message"> Test </p>
+description: <p class="message">This challange asked me to analyze a wireshark capture of communications between a terroist group and an undercover agent.
+  I forgot to grab screen captures of the answers being validated for all questions past the first but I'll do my best to describe them.</p>
 ---
 
 <p class="message">
