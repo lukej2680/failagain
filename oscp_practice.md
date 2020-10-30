@@ -13,7 +13,7 @@ title: OSCP Practice
 * <a href="https://lukej2680.github.io/2020/09/20/legacy/">Legacy</a> 
 * [Bashed](https://lukej2680.github.io/2020/09/27/bashed/)
 * [Blue](https://lukej2680.github.io/2020/10/04/blue/)
-* Lame
+* [Lame](https://lukej2680.github.io/2020/10/18/lame/)
 
 ## TryHackMe
 
