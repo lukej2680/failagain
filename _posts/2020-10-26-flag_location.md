@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Flag Location
+description: <p class="message">This challange asked me to find information from a twitter thread.</p>
 ---
 
 <p class="message">
