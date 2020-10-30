@@ -18,4 +18,4 @@ title: OSCP Practice
 ## TryHackMe
 
 ## Buffer Overflows
-* [VulnerServer](https://lukej2680.github.io/2020/10/11/vulnserver/)
+* [VulnServer](https://lukej2680.github.io/2020/10/11/vulnerserver/)
