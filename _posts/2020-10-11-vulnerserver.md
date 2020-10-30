@@ -14,7 +14,7 @@ title: Vulnserver
 Just like with any other pentest I start by scanning the target with nmap.
 
 <img src="https://github.com/lukej2680/lukej2680.github.io/blob/master/_images/vulnserver/nmap_scan.png">
-<img src="https://github.com/lukej2680/lukej2680.github.io/blob/master/_images/vulnserver/nmap_scan.png2">
+<img src="https://github.com/lukej2680/lukej2680.github.io/blob/master/_images/vulnserver/nmap_scan2.png">
 
 Port 9999 is the port vulnserver is running on and the one I am interested in.\
 Using netcat I connect to the server.
@@ -219,7 +219,7 @@ except:
     sys.exit()
 ```
 
-You might notice that I entered in the jmp code as "\\xaf\\x11\\x50\\x62" instead of "\\x62\\x50\\x11\xaf". This is becuase little endian architecture stores data least significant bit first. All intel processors are little endian and is the more common ordering of bytes between big and little endian.\
+You might notice that I entered in the jmp code as "\\xaf\\x11\\x50\\x62" instead of "\\x62\\x50\\x11\xaf". This is becuase little endian architecture stores data least significant bit first. All intel processors are little endian and is the more common ordering of bytes between big and little endian.
 
 Checking my netcat listener I see the exploit worked and I have root access to the Windows machine.
 
