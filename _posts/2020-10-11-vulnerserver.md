@@ -13,13 +13,13 @@ title: Vulnserver
 
 Just like with any other pentest I start by scanning the target with nmap.
 
-<img src="https://github.com/lukej2680/lukej2680.github.io/blob/master/_images/vulnserver/nmap_scan.png">
-<img src="https://github.com/lukej2680/lukej2680.github.io/blob/master/_images/vulnserver/nmap_scan2.png">
+<img src="https://raw.githubusercontent.com/lukej2680/lukej2680.github.io/master/_images/vulnserver/nmap_scan.png">
+<img src="https://raw.githubusercontent.com/lukej2680/lukej2680.github.io/master/_images/vulnserver/nmap_scan2.png">
 
 Port 9999 is the port vulnserver is running on and the one I am interested in.\
 Using netcat I connect to the server.
 
-<img src="https://github.com/lukej2680/lukej2680.github.io/blob/master/_images/vulnserver/nc_connect.png">
+<img src="https://raw.githubusercontent.com/lukej2680/lukej2680.github.io/master/_images/vulnserver/nc_connect.png">
 
 In order to find a command vulnerable to buffer overflows I started by spiking the commands 
 
@@ -28,7 +28,7 @@ In order to find a command vulnerable to buffer overflows I started by spiking t
 While spiking, I have the vulnserver application attached to immunity debugger. When running the KSTET spike the server crashes and observing immunity debugger 
 shows me that the ESP and EIP are both overwritten with A's. Exactly what I'm looking for.
 
-<img src="https://github.com/lukej2680/lukej2680.github.io/blob/master/_images/vulnserver/ID_spk_crash.png">
+<img src="https://raw.githubusercontent.com/lukej2680/lukej2680.github.io/blob/master/_images/vulnserver/ID_spk_crash.png">
 
 From immunity debugger I also see that the KSTET command adds special characters to the beggining of the input data. Specifically "/.:/". When writing scripts 
 later I will need to remeber to append this to the beggining of my commands.\
@@ -60,13 +60,13 @@ while True:
         sys.exit()
  ```
  
- <img src="https://github.com/lukej2680/lukej2680.github.io/blob/master/_images/vulnserver/ID_fuzz_crash.png">
+ <img src="https://raw.githubusercontent.com/lukej2680/lukej2680.github.io/blob/master/_images/vulnserver/ID_fuzz_crash.png">
  
  The script crashes the program at 200 bytes and observing immunity debugger shows me that the EIP is indeed overwritten.\
  This tells me that somewhere in those 200 bytes the EIP is being overwritten but does not tell me at exactly which bytes this is occuring. For that I use the pattern_create ruby module included in the metasploit-famework tools.\
 Using 200 as a parameter (becuase that how long we need it to be to trigger the crash) the module generates a string for me to use to crash the application. 
  
- <img src="https://github.com/lukej2680/lukej2680.github.io/blob/master/_images/vulnserver/pattern_create.png">
+ <img src="https://raw.githubusercontent.com/lukej2680/lukej2680.github.io/blob/master/_images/vulnserver/pattern_create.png">
  
  Now I update my script from earlier and send the new command.
  
@@ -90,13 +90,13 @@ except:
     sys.exit() 
 ```
 
-<img src="https://github.com/lukej2680/lukej2680.github.io/blob/master/_images/vulnserver/ID_offset_crash.png">
+<img src="https://raw.githubusercontent.com/lukej2680/lukej2680.github.io/blob/master/_images/vulnserver/ID_offset_crash.png">
 
 The program crashes and the EIP is overwritten with 41326341.\
 This alone doesn't tell me much but using the the pattern_offset ruby module will show me the exact byte at which the EIP was overwritten.\
 I pass the length of the of the command and the value of the EIP to the module.
 
-<img src="https://github.com/lukej2680/lukej2680.github.io/blob/master/_images/vulnserver/pattern_offset.png">
+<img src="https://raw.githubusercontent.com/lukej2680/lukej2680.github.io/blob/master/_images/vulnserver/pattern_offset.png">
 
 Exact match at 66 bytes!\
 This is great but it is always a good idea to verify information so modifying my script from before I'll send 66 bytes of A's and 4 bytes of B's. If the EIP is overwritten with just 42's then I know we have the correct offset.
@@ -120,20 +120,20 @@ except:
     sys.exit()
 ```
 
-<img src="https://github.com/lukej2680/lukej2680.github.io/blob/master/_images/vulnserver/ID_offset_verify.png">
+<img src="https://raw.githubusercontent.com/lukej2680/lukej2680.github.io/blob/master/_images/vulnserver/ID_offset_verify.png">
 
 What do you know, the EIP is overwritten with 42's. Looks like I have the correct offset.\
 Now that I have control of the EIP I need a spot in memory to have the instruction pointer point to where I can execute my payload.
 To find such a specific spot I'll use mona modules with immunity debugger.
 
-<img src="https://github.com/lukej2680/lukej2680.github.io/blob/master/_images/vulnserver/ID_mona_modules.png">
+<img src="https://raw.githubusercontent.com/lukej2680/lukej2680.github.io/blob/master/_images/vulnserver/ID_mona_modules.png">
 
 Looking at the list of modules available in the application I want to find one with very little memory protections so my payload can overwrite it. 
 The very first module listed seems to fit the bill, Falses's across the board.\
 Now that I know essfunc.dll has no memory protections I need to find its jmp code in order to point the EIP to this module.\
 Luckily for me mona can help me with that too. Using mona find to look for the jmp code string \xff\xe4 in the module essfunc.dll
 
-<img src="https://github.com/lukej2680/lukej2680.github.io/blob/master/_images/vulnserver/ID_jmp_code.png">
+<img src="https://raw.githubusercontent.com/lukej2680/lukej2680.github.io/blob/master/_images/vulnserver/ID_jmp_code.png">
 
 Choosing the first one, 625011af I now have a jmp code for the vulnerable module.\
 You might think that's all I need to now exploit the service however I still need to search for bad characters. Bad characters are characters that may have been assigned special meaning in a program and therefore cannot be used in my shell code as they have a specific meaning to the processor.\
@@ -170,7 +170,7 @@ except:
 This application fortunatly has no bad characters other then the null character \\x00\
 Now I have enough information to generate my shellcode.
 
-<img src="https://github.com/lukej2680/lukej2680.github.io/blob/master/_images/vulnserver/shellcode.png">
+<img src="https://raw.githubusercontent.com/lukej2680/lukej2680.github.io/blob/master/_images/vulnserver/shellcode.png">
 
 Finally I write my exploit script.
 
@@ -223,4 +223,4 @@ You might notice that I entered in the jmp code as "\\xaf\\x11\\x50\\x62" instea
 
 Checking my netcat listener I see the exploit worked and I have root access to the Windows machine.
 
-<img src="https://github.com/lukej2680/lukej2680.github.io/blob/master/_images/vulnserver/root.png">
+<img src="https://raw.githubusercontent.com/lukej2680/lukej2680.github.io/blob/master/_images/vulnserver/root.png">
