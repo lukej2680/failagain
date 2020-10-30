@@ -1,6 +1,8 @@
 ---
 layout: post
 title: Database Backup
+description: <p class="message">This challange asked me to analyze a database backup and answer various questions.
+  I was unable to solve all the questions but the ones I did are described below.</p>
 ---
 
 <p class="message">
