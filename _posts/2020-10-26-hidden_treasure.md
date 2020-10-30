@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Hidden Treasure
+description: <p class="message">This challange asked me to find flags on a website.</p>
 ---
 
 <p class="message">
