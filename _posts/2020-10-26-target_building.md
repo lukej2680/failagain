@@ -1,6 +1,8 @@
 ---
 layout: post
 title: Target Building
+description: <p class="message">This challange asked me to answer questions relating to an image of an unknown building.
+  I forgot to take screen capture of validating the answers but will do my best to describe the questions and answers.</p>
 ---
 
 <p class="message">
