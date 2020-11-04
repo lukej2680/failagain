@@ -14,8 +14,9 @@ title: OSCP Practice
 * [Bashed](https://lukej2680.github.io/2020/09/27/bashed/)
 * [Blue](https://lukej2680.github.io/2020/10/04/blue/)
 * [Lame](https://lukej2680.github.io/2020/10/18/lame/)
+* [Granny](https://lukej2680.github.io/2020/11/01/granny/)
 
-## TryHackMe
+<!-- ## TryHackMe -->
 
 ## Buffer Overflows
 * [VulnServer](https://lukej2680.github.io/2020/10/11/vulnerserver/)
