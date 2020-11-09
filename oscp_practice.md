@@ -25,3 +25,22 @@ title: OSCP Practice
   <li>Some text</li>
   <li>Some text</li>
 </ul>
+
+<div style="float: left; width: 50%;">
+<ul>
+<li>Left Item 1</li>
+<li>Left Item 2</li>
+<li>Left Item 3</li>
+<li>Left Item 4</li>
+<li>Left Item 5</li>
+</ul>
+</div>
+<div style="float: right; width: 50%;">
+<ul>
+<li>Right Item 1</li>
+<li>Right Item 2</li>
+<li>Right Item 3</li>
+<li>Right Item 4</li>
+<li>Right Item 5</li>
+</ul>
+</div>
