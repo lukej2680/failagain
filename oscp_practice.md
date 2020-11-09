@@ -10,37 +10,25 @@ title: OSCP Practice
 
 ## HTB Machines
 <!-- Make this into a two column list divided into windows and linux machines when you have time -->
-* <a href="https://lukej2680.github.io/2020/09/20/legacy/">Legacy</a> 
-* [Bashed](https://lukej2680.github.io/2020/09/27/bashed/)
-* [Blue](https://lukej2680.github.io/2020/10/04/blue/)
-* [Lame](https://lukej2680.github.io/2020/10/18/lame/)
-* [Granny](https://lukej2680.github.io/2020/11/01/granny/)
-* [Cronos](https://lukej2680.github.io/2020/11/08/cronos/)        
+<div style="float: left; width: 50%;">
+<ul>
+  <h1>Windows</h1>
+<li><a href="https://lukej2680.github.io/2020/09/20/legacy/">Legacy</a></li>
+<li><a href="https://lukej2680.github.io/2020/10/04/blue/">Blue</a></li>
+<li><a href="https://lukej2680.github.io/2020/11/01/granny/">Granny</a></li>
+</ul>
+</div>
+
+<div style="float: right; width: 50%;">
+<ul>
+  <h1>Linux</h1>
+<li><a href="https://lukej2680.github.io/2020/09/27/bashed/">Bashed</a></li>
+<li><a href="https://lukej2680.github.io/2020/10/18/lame/">Lame</a></li>
+<li><a href="https://lukej2680.github.io/2020/11/08/cronos/">Cronos</a></li>
+</ul>
+</div>     
 
 <!-- ## TryHackMe -->
 
 ## Buffer Overflows
 * [VulnServer](https://lukej2680.github.io/2020/10/11/vulnerserver/)
-<ul style="columns: 2;--webkit-columns: 2;-moz-columns: 2" >
-  <li>Some text</li>
-  <li>Some text</li>
-</ul>
-
-<div style="float: left; width: 50%;">
-<ul>
-<li>Left Item 1</li>
-<li>Left Item 2</li>
-<li>Left Item 3</li>
-<li>Left Item 4</li>
-<li>Left Item 5</li>
-</ul>
-</div>
-<div style="float: right; width: 50%;">
-<ul>
-<li>Right Item 1</li>
-<li>Right Item 2</li>
-<li>Right Item 3</li>
-<li>Right Item 4</li>
-<li>Right Item 5</li>
-</ul>
-</div>
