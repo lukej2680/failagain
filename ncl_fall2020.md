@@ -1,7 +1,7 @@
-<!-- ---
+---
 layout: page
 title: Nation Cyber League - Fall 2020 Season
---- -->
+---
 
 <p class="message">
   The NCL is a online CTF competition with challenges in 9 different cyber security domains run by cyberskyline.
