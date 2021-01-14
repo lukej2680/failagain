@@ -16,6 +16,7 @@ author:
 # Collections
 collections: 
   - reports
+  - walkthroughs
   
 # Gems  
 plugins:
