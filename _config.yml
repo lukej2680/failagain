@@ -13,7 +13,11 @@ author:
   url:               
   email:             
 
-# Gems
+# Collections
+collections: 
+  - reports
+  
+# Gems  
 plugins:
   - jekyll-paginate
 
