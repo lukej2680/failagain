@@ -21,6 +21,7 @@ collections:
   walkthroughs:
     output: true
     permalink: /walkthroughs/:path/
+    sort_by: date
   #- walkthroughs
   #- reports
   
