@@ -17,10 +17,10 @@ author:
 collections:
   reports:
     output: true
-    permalink: /jekyll-themes/:path/
+    permalink: /reports/:path/
   walkthroughs:
     output: true
-    permalink: /my-designs/:path/
+    permalink: /walkthroughs/:path/
   #- walkthroughs
   #- reports
   
