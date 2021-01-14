@@ -15,8 +15,9 @@ author:
 
 # Collections
 collections: 
+  walkthroughs:
+    output: true
   - reports
-  - walkthroughs
   
   
 # Gems  
