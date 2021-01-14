@@ -15,8 +15,8 @@ author:
 
 # Collections
 collections: 
-  walkthroughs:
-    output: true
+  - walkthroughs:
+      output: true
   - reports
   
   
