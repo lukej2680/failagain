@@ -16,9 +16,7 @@ author:
 # Collections
 collections: 
   - reports
-    sort_by: date
   - walkthroughs
-    sort_by: date
   
   
 # Gems  
