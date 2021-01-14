@@ -3,6 +3,7 @@ layout: post
 title: Legacy
 description: <p class="message">Bashed is an easy retired linux box on HTB. This machine tested your enumeration skills in order to first find the /dev terminal and then be able to exploit 
   the vulnerable sudo permissions and then a cron job running on the machine.</p>
+post_num: 1
 ---
 
 <p class="message">
