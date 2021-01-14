@@ -15,10 +15,10 @@ author:
 
 # Collections
 collections:
-  themes:
+  reports:
     output: true
     permalink: /jekyll-themes/:path/
-  designs:
+  walkthroughs:
     output: true
     permalink: /my-designs/:path/
   #- walkthroughs
