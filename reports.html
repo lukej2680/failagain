@@ -6,11 +6,11 @@ title: Reports
 <div class="posts">
   {% for post in site.reports %}
   <div class="post">
-    <h3 class="post-title">
+    <h2 class="post-title">
       <a href="{{ post.url | absolute_url }}">
         {{ post.title }}
       </a>
-    </h3>
+    </h2>
 
     <span class="post-date">{{ post.date | date_to_string }}</span>
 
