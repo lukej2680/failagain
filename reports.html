@@ -1,10 +1,10 @@
 ---
-layout: page
-title: Reports
+layout: default
+title: Home
 ---
 
-<div class="reports">
-  {% for post in paginator.reports %}
+<div class="posts">
+  {% for post in paginator.posts %}
   <div class="post">
     <h1 class="post-title">
       <a href="{{ post.url | absolute_url }}">
