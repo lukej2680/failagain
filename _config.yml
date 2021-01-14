@@ -14,10 +14,15 @@ author:
   email:             
 
 # Collections
-collections: 
-  - walkthroughs:
-      output: true
-  - reports
+collections:
+  themes:
+    output: true
+    permalink: /jekyll-themes/:path/
+  designs:
+    output: true
+    permalink: /my-designs/:path/
+  #- walkthroughs
+  #- reports
   
   
 # Gems  
