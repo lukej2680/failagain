@@ -6,7 +6,8 @@ title: About
 <!-- Give breif explanation of blog here;
 -What you're studying for
 -future plans -->
-I created this blog to document all my tech related endeavors. Currently I'm mostly focused on studying for the OSCP which I hope to pass by 2021 (literally have the exam scheduled for January 2nd), and to that end will be posting write ups for HTB and other machines related to the exam. In the future I hope to expand this blog to other projects I'm interested in as well. 
+<!-- I created this blog to document all my tech related endeavors. Currently I'm mostly focused on studying for the OSCP which I hope to pass by 2021 (literally have the exam scheduled for January 2nd), and to that end will be posting write ups for HTB and other machines related to the exam. In the future I hope to expand this blog to other projects I'm interested in as well. -->
+I created this blog to document all my tech related endeavors.
 
 <!-- Who you are;
 -Qualifications
