@@ -7,7 +7,7 @@ title: About
 -What you're studying for
 -future plans -->
 <!-- I created this blog to document all my tech related endeavors. Currently I'm mostly focused on studying for the OSCP which I hope to pass by 2021 (literally have the exam scheduled for January 2nd), and to that end will be posting write ups for HTB and other machines related to the exam. In the future I hope to expand this blog to other projects I'm interested in as well. -->
-I created this blog to document all my tech related endeavors.
+I created this blog to document all my tech related endeavors. The main focus of this blog is to post walkthroughs of rooting different machines on a variety of platforms. In the future I plan to add plog posts detailing any scripts or programs I've written to help with pentesting or otherwise as well as any tech passion projects I might have. 
 
 <!-- Who you are;
 -Qualifications
