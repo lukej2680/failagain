@@ -25,6 +25,7 @@ title: Walkthroughs
 <li><a href="https://lukej2680.github.io/2020/09/27/bashed/">Bashed</a></li>
 <li><a href="https://lukej2680.github.io/2020/10/18/lame/">Lame</a></li>
 <li><a href="https://lukej2680.github.io/2020/11/08/cronos/">Cronos</a></li>
+<li><a href="https://lukej2680.github.io/2021/04/02/blocky/">Blocky</a></li>
 </ul>
 </div>     
 
